@@ -6,7 +6,7 @@ class FizzBuzz:
         self.FizzBuzz = Fizz * Buzz
 
     # create function that takes an empty list, and appends 1-100 with fizz and buzz replaced
-    def fizz_buzz(self):
+    def fizz_buzz_list(self):
         my_list = []
         for num in range(1,101):
             if num % self.FizzBuzz == 0:
@@ -22,4 +22,4 @@ class FizzBuzz:
 if __name__ == "__main__":
     # if file ran from this file, run test on class to check it works as intended
     four_five = FizzBuzz(4, 5)
-    print(four_five.fizz_buzz())
+    print(four_five.fizz_buzz_list())
